@@ -10,4 +10,7 @@ Can append messages from bot.
 To run code- Download all these files. And just open index.html on Google Chrome.
 
 
-Refer to the screenshots for UI.
+Refer to the Working model for UI.
+
+
+! [Demo] (textsy.gif)
