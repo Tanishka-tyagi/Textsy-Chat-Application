@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@300;500&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> Textsy </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="row no-gutters mainss">  
+        <div class="col-xl-3 col-4 left " style="padding-left: 10px;">
+            <div class="profile" >
+                <div class="profile-pic"><img src="img\Me.jpeg" alt=""></div>
+                <div class="name"> <b>Tanishka Tyagi</b>
+                    <p class="email"><b>tanishka.2100@gmail.com </b></p></div>
+            </div>
+            <input type="text" placeholder="Search" class="search" >
+            <!-- messages  -->
+            <div class="mssgs">
+                <ul>
+                    <li class="user 1" id="1">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img src="img\download (2).jpg" alt="">  
+                            </div>
+                            <div class="col-8">
+                                <h2> Lakshya  <span class="status green"></span> </h2>
+                                <span class="preview">Online</span>
+                            </div>
+                        </div>      
+                    </li>
+                    <hr>
+                    <li class="user 2" id="2">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img src="img\download.jpg" alt="">  
+                            </div>
+                            <div class="col-8">
+                                <h2> Vandana <span class="status orange"></span> </h2>
+                                <span class="preview">Offline</span>
+                            </div>
+                        </div>  
+                    </li>
+                    <hr>
+                    <li class="user 3" id="3">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img src="img\download (1).jpg" alt="">  
+                            </div>
+                            <div class="col-8">
+                                <h2> Ajay <span class="status green"></span></h2>
+                                <span class="preview">Online</span>
+                            </div>
+                        </div>
+                  </li>
+                  <hr>
+                    <li class="user 4" id="4">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img src="img\download (3).jpg" alt="">  
+                            </div>
+                            <div class="col-8">
+                                <h2> Snigdha <span class="status orange"></span></h2>
+                                <span class="preview">Offline</span>
+                            </div>
+                        </div> 
+                    </li>
+                    <hr>
+                    <li class="user 5" id="5">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img src="img\image-250nw-623123291.jpg" alt="">  
+                            </div>
+                            <div class="col-8">
+                                <h2> Riya <span class="status orange"></span></h2>
+                                <span class="preview">Offline</span>
+                            </div>
+                        </div>
+                    </li>
+                    <hr>
+                    </ul>
+                 </div>
+        </div>
+        <div class="col-xl-9 col-8 right">
+            <nav class="navbar">
+          <div class="navbar-brand"> <img src="img\t-letter-purple.svg" alt="" class="profile-pic2">
+            <span class="profile-name"> extsy </span>
+        </div>
+              </nav>
+                       <div class="message-container">
+                           <div id="alert">
+                               <p>Click On any contact to start a conversation. </p>
+                           </div>
+                           <div id="message-content">     
+                        </div>
+                        <div class="text-box">            
+                            <i class="fa fa-camera"></i>   
+                         <input type="text" id="value" placeholder="Start Typing.... " >              
+                      <i class="fa fa-paper-plane" aria-hidden="true" id="submit" } ></i>         
+                       <i class="fa fa-microphone"></i>               
+                        </div>
+                        </div>
+            </div>
+        </div> 
+    </div>
+    <script src="user.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
