@@ -13,4 +13,4 @@ To run code- Download all these files. And just open index.html on Google Chrome
 Refer to the Working model for UI.
 
 
-! [Demo] (textsy.gif)
+![Demo](Textsy.gif)
