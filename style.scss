@@ -1,0 +1,295 @@
+
+$primary_1: rgb(78, 78, 80);
+$primary_2: rgb(201, 198, 198);
+$primary_3: white;
+$primary_4: black;
+$mymssg: #4d2958;
+$recmssg: #58b666;
+
+
+html {
+    display: grid;
+  }
+.mainss{
+  width: 90%;
+  margin: auto;
+  height: 600px;
+}
+*{
+    box-sizing:border-box;
+}
+
+body{
+	background: linear-gradient(to left bottom, rgb(142, 121, 199) 40%, rgb(249, 251, 255) 100%);
+  font-family: 'Merriweather', serif;
+  
+}
+  //main body
+.left {
+    box-shadow: 1px -1px 18px 9px dimgrey ;
+    opacity: 0.85;
+    height: 80%;
+     overflow: hidden ;
+    margin: auto 0px;
+  }
+.right {
+    background-image: url('img/background.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
+     height: 90%;
+     overflow: hidden ;
+    margin: auto 0px;
+  }
+
+  .mssgs{
+   overflow-y:auto;
+   max-height: 65vh;
+
+  }
+   
+  #message-content{
+    overflow: auto;
+  }
+  // personal profile
+  .profile{
+    text-align: center;
+  }
+  .name{
+      color: white;
+      font-size: 14px;
+  }
+  .email {
+    color: white;
+    margin-top: 2px;
+    font-size: 14px;
+  }
+  
+  .profile-pic {
+  
+    img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        margin-top:10px;
+        
+      }
+  }
+  .search{   
+     border-radius: 10px;
+     border-width: 1px;
+     margin: auto;
+     width: 95%;
+     background-color: #CCC;
+     color: black;
+     text-align: center;
+  } 
+
+
+  // Messages 
+
+.message-container{
+  height: 100%;
+}
+
+#message-content{
+  height: 80%;
+}
+
+.abled{   
+  height: fit-content !important;
+    background-color: whitesmoke !important; 
+        h2{         color: black !important;   
+          }  
+           p{         color: gray !important;  
+             } 
+            }
+
+.chatty{  
+              
+      .user-mess , .bot-mess{      
+      padding: 20px;        
+        p{           
+         border-radius: 31px 2px 38px 24px;   
+             background-color: darkgray;   
+          max-width: 80%;         
+          width: fit-content;        
+         font-size: 0.9em;          
+         padding: 10px;        
+      text-align: left;    
+         }    
+        
+         }   
+          .bot-mess{    
+           p{      
+             background-color: mediumpurple;
+             border-radius: 2px 31px 38px 24px;  
+          text-align: right;    
+        } 
+    } 
+}
+
+//textbar (bottom part)
+
+     .text-box{     
+            height: 20%;      
+            margin: -10px 15px;   
+         text-align: center;        
+         position: relative;      
+             input{                      
+                width: 90%;          
+                padding: 10px;    
+                border-radius: 30px;                 
+                border-width: 1.25px;                     
+                border-color:#5adffd ;              
+              }      
+              }
+
+        
+// icon styling
+
+.fa-paper-plane{
+  position: absolute;
+  top: 12%;
+  right: 8%;
+  font-size: large;
+}
+
+.fa-camera{
+    position: absolute;
+    left: 1%;
+    top: 12%;
+    font-size: large;
+   
+}
+.fa-microphone{
+  position: absolute;
+  right: 2%;
+  top: 12%;
+  font-size: large;
+}
+
+//mssgs styling
+
+  ul{
+	padding-left:0;
+    margin:0;
+    border-top: 1px solid black;
+    margin-top: 4px;
+}
+ .user{
+    height: 60px;
+   
+}
+
+ li img{
+	border-radius:50%;
+	margin-left:20px;
+    margin-right:8px;
+    width: 55px;
+    height: 55px;
+}
+ li div{
+	display:inline-block;
+	vertical-align:top;
+	margin-top:12px;
+}
+ li h2{
+	font-size:13px;
+	color:$primary_4;
+  margin-bottom:-4px;
+  margin-top: 12px;
+}
+ li h3{
+	font-size:12px;
+	color:$primary_4;
+}
+
+.preview {
+    color: black;
+    font-size: 12px;
+  }
+
+  .status {
+
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#alert{
+  position: absolute;
+  top: 50%;
+  right: 30%;
+  background-color: dimgray;
+  width: fit-content;
+  border-radius: 30px;
+  padding: 10px;
+  p{
+    
+    color: white;
+    width: 60%;
+    margin: auto;
+
+  }
+}
+
+//Status 
+.green{
+	background-color: $recmssg;
+}
+.orange{
+	background-color:#ff725d;
+}
+
+// right part 
+
+.profile-name{
+    margin-left: -30px;
+    font-size: 1.25em;
+    color: black;
+    text-align: center;
+}
+.profile-pic2{
+      
+        width:70px;
+         height: 50px;
+      } 
+
+.navbar{
+  background-color: ghostwhite;
+  text-align: center;
+    justify-content: center;
+    height: 68px;
+}
+
+  //scrollbar
+  
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+ 
+  //placeholder
+  ::placeholder {
+    color: black;
+    font-size: 13px;
+  }
