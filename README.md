@@ -10,4 +10,4 @@ Can append messages from bot.
 To run code- Download all these files. And just open index.html on Google Chrome.
 
 
-Refer to the screenshot folder for UI.
+Refer to the screenshots for UI.
